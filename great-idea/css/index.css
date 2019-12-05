@@ -69,12 +69,7 @@ h1, h2, h3, h4, h5 {
 	width: 800px;
 	margin: auto;
 	}
-
-.top-nav {
-	display: flex;
-	margin: auto;
-}
-
+/* Nav */
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -87,23 +82,24 @@ nav a {
 }
 
 .logo {
-	display: inline-block;
+	display: flex;
 }
-
+/* End Nav */
+ 
 .header-content {
-	display: block;
+	display: flex;
 }
 
 .billboard {
 	margin-top: 50px;
-	display: inline-block;
+	display: flex;
 }
 
 .main-heading {
 	width: 400px;
 	margin: 5px;
-	display: inline-block;
-}
+	}
+ 
 
 .main-heading h1 {
 	padding: 0px;
@@ -120,24 +116,23 @@ nav a {
 	border: 1px solid black;
 }
 
-.main-img {
-	display: inline-block;
+.main-image {
+	display: flex;
 	width: 400px;
 }
 
 .above-content {
+	display: flex;
 	width: 800px;
 	margin-top: 20px;
 }
 
 .top-left {
-	display: inline-block;
 	width: 380px;
 	margin: 20px 0;
 }
 
 .top-right {
-	display: inline-block;
 	width: 380px;
 }
 
@@ -148,28 +143,26 @@ nav a {
 .below-content {
 	width: 800px;
 	margin-top: 20px;
+	display: flex;
 }
 
 .bottom-left {
-	display: inline-block;
 	width: 250px;	
 	margin-right: 15px;
 }
 
 .bottom-middle {
-	display: inline-block;
 	width: 250px;
 	margin-right:15px;
 }
 
 .bottom-right {
-	display: inline-block;
 	width: 250px;
 	margin-right: 0;
 }
 
 address h3 {
-	display: block;
+	display: flex;
 }
 
 footer p {
