@@ -165,7 +165,67 @@ address h3 {
 	display: flex;
 }
 
+footer {
+	text-align: center;
+}
+
 footer p {
 	margin: 30px 0;
 	text-align: center;
+}
+
+.about-services {
+  margin: 30px 0 0 30px;
+}
+
+.about-services h1 {
+	font-size: 24px;  
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;  
+  margin: 30px;
+  padding-bottom: 40px;
+}
+
+.service-item {
+  margin: 40px 0 0 0;
+  padding: 20px;
+  background: lightgrey;
+  border: 1px solid black;
+  width: 400px;
+}
+
+.service-item p {
+  line-height: 18px;
+}
+.service-item button {
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 7px 20px 7px 20px;
+  border: 1px solid black;  
+  border-radius: 5px;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;   
+  margin: 30px;
+}
+
+.facts-item {
+  width: 400px;
 }
